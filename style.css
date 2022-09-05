@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Epilogue&family=Fira+Sans:ital,wght@0,400;1,100&family=Poppins:wght@700&family=Quicksand:wght@300;400;500;600&family=Roboto:ital,wght@1,300;1,500&display=swap');
+*{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 15px;
+}
+nav button{
+    color:  hsl(322, 100%, 66%);
+    border:solid 1px hsl(322, 100%, 66%);
+    padding: .7rem;
+    border-radius: 30px;
+    background-color: #fff;
+    cursor: pointer;
+}
+p{
+    font-size: 1.2rem;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+}
+header h1{
+    font-size:3rem;
+    font-weight: bold;
+    text-align: center;
+}
+header p{
+    font-size: 1.3rem;
+    width: 40%;
+    text-align: center;
+    line-height: 2rem;
+    padding: 2rem;
+}
+header button{
+    padding: 1rem;
+    border-radius: 20px;
+    width: 20rem;
+    border: none;
+    background-color:  hsl(322, 100%, 66%);
+    color: #fff;
+    cursor: pointer;
+}
+header img{
+    margin: 50px;
+    width: 80%;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section1 div h2{
+    font-size: 5rem;
+}
+.section1 div p{
+    font-size: 1.2rem;
+}
+.section2 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px;
+}
+ 
+.section2 img{
+    width: 30rem;
+}
+.section2 div h2{
+    font-size: 3rem;
+}
+ 
+.section2 div p{
+    font-size: 1.2rem;
+}
+
+.btn-center{
+    display: flex;
+    flex-direction: column;
+}
+.btn-center h3{
+    font-size: 2rem;
+}
+.btn-center button{
+    padding: 1rem;
+    margin: 50px;
+    background-color:  hsl(322, 100%, 66%);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: #fff;
+    padding: 5rem;
+}
+footer p{
+    width: 23rem;
+    padding: 2rem 0;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+footer input{
+    padding: .7rem;
+}
+
+ footer input[type="button"]{
+    background-color:  hsl(322, 100%, 66%);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+} 
+@media (max-width:725px) {
+    header p{
+        width: 300px;
+    }
+    .section2 div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section2 div img{
+        width: 80%;
+    }
+    footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
